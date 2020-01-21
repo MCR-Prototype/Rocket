@@ -1,0 +1,17 @@
+@import "./GlobalColors.scss";
+
+body{
+  background-color: $maincolorgrey2;
+  margin:0px;
+  color: $maincolorfont;
+}
+html, body{
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.app{
+  color: $maincolorred2;
+}
+
+
