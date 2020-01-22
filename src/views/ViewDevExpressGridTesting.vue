@@ -39,20 +39,13 @@
 </template>
 
 <script>
-import "devextreme/data/odata/store";
-import AppNavigation from "@/components/AppNavigation/AppNavigation";
-import {
-  DxDataGrid,
-  DxColumn,
-  DxPager,
-  DxPaging,
-  DxFilterRow,
-  DxEditing
-} from "devextreme-vue/data-grid";
-import CustomStore from "devextreme/data/custom_store";
-import "whatwg-fetch";
+  import "devextreme/data/odata/store";
+  import AppNavigation from "@/components/AppNavigation/AppNavigation";
+  import {DxColumn, DxDataGrid, DxEditing, DxFilterRow, DxPager, DxPaging} from "devextreme-vue/data-grid";
+  import CustomStore from "devextreme/data/custom_store";
+  import "whatwg-fetch";
 
-function isNotEmpty(value) {
+  function isNotEmpty(value) {
   return value !== undefined && value !== null && value !== "";
 }
 
@@ -62,7 +55,6 @@ const store = new CustomStore({
     loadOptions.$top = loadOptions.take;
     loadOptions.$skip = loadOptions.skip;
     loadOptions.$count = true;
-    console.log("LoadOptions", loadOptions);
     let params = "?";
     [
       "$skip",
@@ -82,13 +74,11 @@ const store = new CustomStore({
       }
     });
     params = params.slice(0, -1);
-    console.log("PARAMS:", params);
     return (
       fetch(`http://10.1.4.33:8081/TestStores${params}`)
         // return fetch(`https://js.devexpress.com/Demos/WidgetsGalleryDataService/api/orders${params}`)
         .then(response => response.json())
         .then(data => {
-          console.log("Response", data);
           return {
             data: data.value,
             totalCount: data["@odata.count"]
