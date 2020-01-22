@@ -1,4 +1,5 @@
 <template>
+  <!--    Testing Commit -->
   <DxDataGrid
     :show-borders="true"
     :data-source="dataSource"
@@ -92,30 +93,19 @@
   </DxDataGrid>
 </template>
 <script>
-import {
-  DxDataGrid,
-  DxColumn,
-  DxEditing,
-  DxFilterRow,
-  DxHeaderFilter,
-  DxGroupPanel,
-  // DxGrouping,
-  DxScrolling,
-  // DxSummary,
-  // DxLookup,
-  // DxTotalItem,
-  // DxGroupItem,
-  // DxMasterDetail,
-  // DxStringLengthRule,
-  // DxRequiredRule,
-  // DxRangeRule,
-  // DxValueFormat
-} from "devextreme-vue/data-grid";
+  import {
+    DxColumn,
+    DxDataGrid,
+    DxEditing,
+    DxFilterRow,
+    DxGroupPanel,
+    DxHeaderFilter,
+    DxScrolling,
+  } from "devextreme-vue/data-grid";
+  // import MasterDetailGrid from "MasterDetailGrid.vue";
+  import {createStore} from "devextreme-aspnet-data-nojquery";
 
-// import MasterDetailGrid from "MasterDetailGrid.vue";
-import { createStore } from "devextreme-aspnet-data-nojquery";
-
-const url = "http://10.1.4.33:8081/";
+  const url = "http://10.1.4.33:8081/";
 // const url = 'https://js.devexpress.com/Demos/Mvc/api/DataGridWebApi';
 
 const dataSource = createStore({
