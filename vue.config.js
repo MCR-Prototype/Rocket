@@ -6,9 +6,9 @@ module.exports = {
       }
     }
   },
-  devServer: {
-    https: true
-  },
+  // devServer: {
+  //   https: false
+  // },
   publicPath: process.env.NODE_ENV === 'production'
       ? '/Rocket/'
       : '/'

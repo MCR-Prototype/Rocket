@@ -13,8 +13,9 @@
 </template>
 
 <script>
-import baseGuiMixin from "@/components/BaseCompononents/BaseGuiObject/MixinBaseGuiObject";
-export default {
+  import baseGuiMixin from "@/components/BaseCompononents/BaseGuiObject/MixinBaseGuiObject";
+
+  export default {
   name: "GuiBox",
   mixins: [baseGuiMixin],
   data() {
@@ -43,6 +44,5 @@ export default {
   color: $maincolorfont;
   width: 150px;
   height: 150px;
-
 }
 </style>

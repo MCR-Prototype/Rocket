@@ -8,6 +8,8 @@ import ViewMaterialDesign from "@/views/ViewMaterialDesign";
 import ViewDevExpress from "@/views/ViewDevExpress";
 import ViewDevExpressGridTesting from "@/views/ViewDevExpressGridTesting";
 import ViewDevExpressGridTestingApi from "@/views/ViewDevExpressGridTestingApi";
+import ViewSyncFusionGridTesting from "@/views/ViewSyncFusionGridTesting";
+import ViewVuetifyGridTesting from "@/views/ViewVuetifyGridTesting";
 
 Vue.use(VueRouter);
 
@@ -50,6 +52,16 @@ const routes = [
     path: "/DevExTestApi",
     name: "DevExpressTestApi",
     component: ViewDevExpressGridTestingApi
+  },
+  {
+    path: "/SyncFusionTest",
+    name: "SyncFusionTest",
+    component: ViewSyncFusionGridTesting
+  },
+  {
+    path: "/VuetifyTest",
+    name: "VuetifyTest",
+    component: ViewVuetifyGridTesting
   },
   {
     path: "/about",

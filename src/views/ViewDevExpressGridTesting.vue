@@ -16,7 +16,6 @@
       :hover-state-enabled="true"
       @selection-changed="onSelectionChanged"
     >
-      <DxFilterRow :visible="showFilterRow" :apply-filter="currentFilter" />
       <DxEditing :allow-updating="true" mode="form" />
       <DxColumn data-field="Id" caption="ID" data-type="number" />
       <DxColumn data-field="Name" caption="Name" data-type="string" />
@@ -32,7 +31,7 @@
       <DxPaging :page-size="3" />
       <DxPager
         :show-page-size-selector="true"
-        :allowed-page-sizes="[10, 20, 50, 100]"
+        :allowed-page-sizes="[3, 5, 10, 100, 1000]"
       />
     </DxDataGrid>
   </div>
@@ -41,7 +40,7 @@
 <script>
   import "devextreme/data/odata/store";
   import AppNavigation from "@/components/AppNavigation/AppNavigation";
-  import {DxColumn, DxDataGrid, DxEditing, DxFilterRow, DxPager, DxPaging} from "devextreme-vue/data-grid";
+  import {DxColumn, DxDataGrid, DxEditing, DxPager, DxPaging} from "devextreme-vue/data-grid";
   import CustomStore from "devextreme/data/custom_store";
   import "whatwg-fetch";
 
@@ -100,8 +99,7 @@ export default {
     DxColumn,
     DxPager,
     DxPaging,
-    DxEditing,
-    DxFilterRow
+    DxEditing
   },
   data() {
     return {

@@ -6,7 +6,9 @@
     <router-link to="/DevEx">DevExpress</router-link> |
     <router-link to="/about">Control</router-link> |
     <router-link to="/DevExTest">DevExTest</router-link> |
-    <router-link to="/DevExTestApi">DevExTestApi</router-link>
+    <router-link to="/DevExTestApi">DevExTestApi</router-link> |
+    <router-link to="/SyncFusionTest">SyncFusionTest</router-link>
+    <router-link to="/VuetifyTest">VuetifyTest</router-link>
   </div>
 </template>
 

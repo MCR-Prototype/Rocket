@@ -7,17 +7,17 @@
     :height="600"
   >
     <DxColumn data-field="Id" caption="ID" data-type="number" />
-<!--    <DxLookup-->
-<!--        :data-source="Id"-->
-<!--        value-expr="Value"-->
-<!--        display-expr="Text"-->
-<!--    />-->
-    <DxPaging :page-size="10"/>
-<!--    <DxColumn data-field="Name" caption="Name" data-type="string" />-->
-<!--    <DxColumn data-field="Street" caption="Straße" data-type="string" />-->
-<!--    <DxColumn data-field="CityCode" caption="PLZ" data-type="string" />-->
-<!--    <DxColumn data-field="CityName" caption="Stadt" data-type="string" />-->
-<!--    <DxColumn data-field="Phone" caption="Tel. Nr." data-type="string" />-->
+    <!--    <DxLookup-->
+    <!--        :data-source="Id"-->
+    <!--        value-expr="Value"-->
+    <!--        display-expr="Text"-->
+    <!--    />-->
+    <DxPaging :page-size="10" />
+    <!--    <DxColumn data-field="Name" caption="Name" data-type="string" />-->
+    <!--    <DxColumn data-field="Street" caption="Straße" data-type="string" />-->
+    <!--    <DxColumn data-field="CityCode" caption="PLZ" data-type="string" />-->
+    <!--    <DxColumn data-field="CityName" caption="Stadt" data-type="string" />-->
+    <!--    <DxColumn data-field="Phone" caption="Tel. Nr." data-type="string" />-->
     <!--    <DxColumn-->
     <!--        data-field="CustomerID"-->
     <!--        caption="Customer"-->
@@ -80,28 +80,20 @@
       :allow-deleting="true"
       mode="row"
     />
-<!--    <DxGrouping :auto-expand-all="false" />-->
-<!--    <DxSummary>-->
-<!--      <DxTotalItem column="Freight" summary-type="sum">-->
-<!--        <DxValueFormat :precision="2" type="decimal" />-->
-<!--      </DxTotalItem>-->
-<!--      <DxGroupItem column="Freight" summary-type="sum">-->
-<!--        <DxValueFormat :precision="2" type="decimal" />-->
-<!--      </DxGroupItem>-->
-<!--      <DxGroupItem summary-type="count" />-->
-<!--    </DxSummary>-->
+    <!--    <DxGrouping :auto-expand-all="false" />-->
+    <!--    <DxSummary>-->
+    <!--      <DxTotalItem column="Freight" summary-type="sum">-->
+    <!--        <DxValueFormat :precision="2" type="decimal" />-->
+    <!--      </DxTotalItem>-->
+    <!--      <DxGroupItem column="Freight" summary-type="sum">-->
+    <!--        <DxValueFormat :precision="2" type="decimal" />-->
+    <!--      </DxGroupItem>-->
+    <!--      <DxGroupItem summary-type="count" />-->
+    <!--    </DxSummary>-->
   </DxDataGrid>
 </template>
 <script>
-  import {
-    DxColumn,
-    DxDataGrid,
-    DxEditing,
-    DxFilterRow,
-    DxGroupPanel,
-    DxHeaderFilter,
-    DxScrolling,
-  } from "devextreme-vue/data-grid";
+  import {DxColumn, DxDataGrid, DxEditing, DxFilterRow, DxGroupPanel, DxHeaderFilter} from "devextreme-vue/data-grid";
   // import MasterDetailGrid from "MasterDetailGrid.vue";
   import {createStore} from "devextreme-aspnet-data-nojquery";
 
@@ -142,9 +134,9 @@ export default {
     DxEditing,
     DxFilterRow,
     DxHeaderFilter,
-    DxGroupPanel,
+    DxGroupPanel
     // DxGrouping,
-    DxScrolling,
+    // DxScrolling
     // DxSummary,
     // DxLookup,
     // DxTotalItem,
