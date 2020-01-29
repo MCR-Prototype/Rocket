@@ -11,6 +11,7 @@ import axios from "axios";
 // vue-material
 import VueMaterial from "vue-material";
 import "vue-material/dist/vue-material.css";
+import vuetify from "./plugins/vuetify";
 
 Vue.config.productionTip = false;
 
@@ -25,5 +26,6 @@ Vue.prototype.axios = axios;
 window.App = new Vue({
   router,
   store,
+  vuetify,
   render: h => h(App)
 }).$mount("#app");

@@ -2,35 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f0cb044-53cc-4b0f-aadd-248f29af134d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6ce46416bee5401b29fbcafeec67534c14d8c55c.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a76f06faf90030f73bcf02b87b10b141cc7b314a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a9303fdf68897b6d64ca3c51a1632555078692ed.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/ViewSyncFusionGridTesting.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/ViewVuetifyGridTesting.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApiService/RocketOdataService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugins/vuetify.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist" beforeDir="false" afterPath="$PROJECT_DIR$/dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1697253e51f9ce2ad385fead17dcfa6a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1697253e51f9ce2ad385fead17dcfa6a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7b83fa142c921330488b38fc1c346511.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7b83fa142c921330488b38fc1c346511.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7f51971b7688f4f5e94dcce6b8eb05ee.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7f51971b7688f4f5e94dcce6b8eb05ee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/27170eab80191a0a18c94464c5547992.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/27170eab80191a0a18c94464c5547992.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9908af07d317b737b86a327a47f4205b.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9908af07d317b737b86a327a47f4205b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a36c42be21b381efe0363f6af77fd0d4.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a36c42be21b381efe0363f6af77fd0d4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a65c2fdfc3bb228f7357748cd58e566b.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a65c2fdfc3bb228f7357748cd58e566b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b5595c9a26adfea563343199d163ca52.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b5595c9a26adfea563343199d163ca52.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f6522d41a42e2593087adb47a2bd6dbc.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f6522d41a42e2593087adb47a2bd6dbc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f898bbe85da0a95e47111ce97aba2f8f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f898bbe85da0a95e47111ce97aba2f8f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/324eda4693ab36cb83cc171ee007ba62.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/324eda4693ab36cb83cc171ee007ba62.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/3be32836527eff73143c073504d3037f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/3be32836527eff73143c073504d3037f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/92e8fa637a6309c00daee7e3507ff26e.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/92e8fa637a6309c00daee7e3507ff26e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ada455856df6698f4d7aa538b8d54a3c.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ada455856df6698f4d7aa538b8d54a3c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/c8803f55fdf7c68941710bea2e593a34.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/c8803f55fdf7c68941710bea2e593a34.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppNavigation/AppNavigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppNavigation/AppNavigation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BaseCompononents/BaseGuiObject/GuiBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseCompononents/BaseGuiObject/GuiBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/ViewDevExpressGridTesting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ViewDevExpressGridTesting.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/ViewDevExpressGridTestingApi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ViewDevExpressGridTestingApi.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ViewSyncFusionGridTesting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ViewSyncFusionGridTesting.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ViewVuetifyGridTesting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ViewVuetifyGridTesting.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -108,14 +98,14 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\prototype-vue\src\components\app-header\Assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\prototype-vue\src\components\BaseCompononents" />
       <recent name="F:\prototype-vue\src\components\AppContent" />
       <recent name="F:\prototype-vue\src\components\AppContent\DesignerPallete" />
       <recent name="F:\prototype-vue\src\components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\prototype-vue\src\components\app-header\Assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm serve">
@@ -198,7 +188,9 @@
       <workItem from="1579591282693" duration="20062000" />
       <workItem from="1579770002419" duration="7842000" />
       <workItem from="1579851059288" duration="6103000" />
-      <workItem from="1580110046980" duration="2171000" />
+      <workItem from="1580110046980" duration="5917000" />
+      <workItem from="1580198061545" duration="14284000" />
+      <workItem from="1580286305418" duration="1218000" />
     </task>
     <task id="LOCAL-00001" summary="Testing First-Website">
       <created>1579620435123</created>
@@ -221,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579697760791</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Testing Vuetify">
+      <created>1580123712462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580123712462</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +244,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Testing First-Website" />
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Testing Vuetify" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing Vuetify" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -273,36 +273,36 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="707" y="440" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1170/1920.0.1280.994@0.0.1920.1170" timestamp="1575621013236" />
-    <state x="585" y="179" width="1250" height="809" key="CommitChangelistDialog2" timestamp="1579697754989">
+    <state x="585" y="179" width="1250" height="809" key="CommitChangelistDialog2" timestamp="1580123763076">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="585" y="179" key="CommitChangelistDialog2/0.0.1920.1170/1920.0.1280.994@0.0.1920.1170" timestamp="1576222289000" />
-    <state x="585" y="179" width="1250" height="809" key="CommitChangelistDialog2/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1579697754989" />
+    <state x="585" y="179" width="1250" height="809" key="CommitChangelistDialog2/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1580123763076" />
     <state x="740" y="339" key="FileChooserDialogImpl" timestamp="1579706766858">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="740" y="339" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1280.994@0.0.1920.1170" timestamp="1576140828677" />
     <state x="740" y="339" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1579706766858" />
-    <state width="949" height="325" key="GridCell.Tab.0.bottom" timestamp="1579853038453">
+    <state width="949" height="325" key="GridCell.Tab.0.bottom" timestamp="1580288827316">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state width="1899" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1280.994@0.0.1920.1170" timestamp="1579246093450" />
-    <state width="949" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1579853038453" />
-    <state width="949" height="325" key="GridCell.Tab.0.center" timestamp="1579853038437">
+    <state width="949" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1580288827316" />
+    <state width="949" height="325" key="GridCell.Tab.0.center" timestamp="1580288827316">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state width="1899" height="325" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1280.994@0.0.1920.1170" timestamp="1579246093450" />
-    <state width="949" height="325" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1579853038437" />
-    <state width="949" height="325" key="GridCell.Tab.0.left" timestamp="1579853038437">
+    <state width="949" height="325" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1580288827316" />
+    <state width="949" height="325" key="GridCell.Tab.0.left" timestamp="1580288827316">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state width="1899" height="325" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1280.994@0.0.1920.1170" timestamp="1579246093450" />
-    <state width="949" height="325" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1579853038437" />
-    <state width="949" height="325" key="GridCell.Tab.0.right" timestamp="1579853038437">
+    <state width="949" height="325" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1580288827316" />
+    <state width="949" height="325" key="GridCell.Tab.0.right" timestamp="1580288827316">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state width="1899" height="325" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1280.994@0.0.1920.1170" timestamp="1579246093450" />
-    <state width="949" height="325" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1579853038437" />
+    <state width="949" height="325" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1580288827316" />
     <state width="1899" height="366" key="GridCell.Tab.1.bottom" timestamp="1576228709442">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
@@ -343,14 +343,18 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="552" y="319" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1579697769356" />
+    <state x="92" y="92" width="1736" height="986" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580140661141">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="92" y="92" width="1736" height="986" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1580140661141" />
     <state x="607" y="199" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576074404475">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="607" y="199" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1170/1920.0.1280.994@0.0.1920.1170" timestamp="1576074404475" />
-    <state x="769" y="503" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579697622766">
+    <state x="769" y="503" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580288872285">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="769" y="503" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1579697622766" />
+    <state x="769" y="503" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1580288872285" />
     <state x="521" y="320" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576137878980">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>

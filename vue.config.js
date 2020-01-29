@@ -2,18 +2,15 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        prependData: `@import "@/GlobalStyles/GlobalColors.scss";`
+        prependData: '@import "@/GlobalStyles/GlobalColors.scss"'
+      },
+      scss: {
+        // Here we can use the newer SCSS flavor of Sass.
+        // Note that there *is* a semicolon at the end of the below line
+        prependData: '@import "@/GlobalStyles/GlobalColors.scss";'
       }
     }
   },
-  // devServer: {
-  //   https: false
-  // },
-  publicPath: process.env.NODE_ENV === 'production'
-      ? '/Rocket/'
-      : '/'
-  // Using only for dev "Access-Control-Allow-Origin"
-  //devServer: {
-  //   proxy: 'http://10.1.4.33:8080',
-  // }
+  publicPath: "/",
+  transpileDependencies: ["vuetify"]
 };
