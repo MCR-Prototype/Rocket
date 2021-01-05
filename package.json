@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@syncfusion/ej2-vue-grids": "^17.4.44",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "core-js": "^3.3.2",
     "devextreme": "19.2-stable",
     "devextreme-aspnet-data-nojquery": "^2.5.1",
